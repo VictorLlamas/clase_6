@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <script type="application/javascript">
+            let peso = parseFloat(prompt("Cuanto Pesas?"));
+            let pesoIdeal = parseFloat(prompt("Cual seria tu peso ideal?"));
+            let semanasTranscurridas = 0;
+            while (peso > pesoIdeal){
+                let perdidaDePesoXSemana = parseFloat(prompt("Cuanto kg perdiste la semana " + (semanasTranscurridas + 1) + "?"));
+                semanasTranscurridas = semanasTranscurridas + 1;
+                peso -= perdidaDePesoXSemana;
+            }
+            alert(semanasTranscurridas);
+        </script>
+    </head>
+    <body></body>
+</html>

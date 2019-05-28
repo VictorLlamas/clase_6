@@ -1,0 +1,6 @@
+INICIO
+   LEER numAMultiplicar
+   PARA num = 1 MIENTRAS num <= 10 AUMENTA num = num+1 
+    ESCRIBE "numAMultiplicar " " * " " num = " numAMultiplicar * num 
+   FIN-PARA
+FIN

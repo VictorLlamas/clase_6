@@ -1,0 +1,18 @@
+INICIO
+FIN
+LEER
+ESCRIBE
+SI codicion ENTONCES
+    codigo
+SINO
+    codigo
+FIN-SI
+MIENTRAS condicion  HACER
+    codigo
+FIN-MIENTRAS
+HACER
+    dodigo
+MIENTRAS condicion
+PARA inicializacion de variables MIENTRAS condicion AUMENTA aumento
+    codigo
+FIN-PARA

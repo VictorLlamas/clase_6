@@ -1,0 +1,10 @@
+INICIO
+    LEER numeroTotalCalificaciones
+    LEER arregloDeCalificaciones
+    sumaCalificaciones = 0
+    PARA numeroDeCalificacion=0 MIENTRAS numeroDeCalificacion < numeroTotalCalificaciones AUMENTA numeroDeCalificacion = numeroDeCalificacion + 1
+        sumaCalificaciones = sumaCalificaciones + arregloDeCalificaciones[numeroDeCalificacion]
+    FIN-PARA
+    promedio = sumaCalificaciones / numeroTotalCalificaciones
+    ESCRIBIR promedio
+FIN
